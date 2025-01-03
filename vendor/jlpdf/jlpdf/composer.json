@@ -1,0 +1,27 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jlpdf/jlpdf"
+        }
+    ],
+    "name": "jlpdf/jlpdf",
+    "description": "Pacote para manipulação de PDFs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Seu Nome",
+            "email": "seu-email@exemplo.com"
+        }
+    ],
+    "require": {
+        "chillerlan/php-qrcode": "^5.0",
+        "tecnickcom/tcpdf": "^6.6"
+    },
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    }
+}
